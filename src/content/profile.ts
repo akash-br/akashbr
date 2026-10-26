@@ -1,0 +1,68 @@
+/**
+ * Profile & contact details.
+ * Edit these values to update the site. Everything here comes from the CV.
+ *
+ * Deliberately NOT shown on the site: phone number, nationality, gender.
+ */
+export const profile = {
+  name: "Akash Ballenahalli Ramegowda",
+  shortName: "Akash",
+  initials: "AB",
+  role: "Digitalisation Specialist",
+  employer: "BMW AG",
+  location: "Munich, Germany",
+  photo: "/img/akash.webp",
+
+  email: "Akash91oct@gmail.com",
+  linkedin: "https://www.linkedin.com/in/akash-br/",
+
+  /**
+   * PLACEHOLDER — no GitHub profile is listed in the CV.
+   * Add your URL here (e.g. "https://github.com/your-handle") and a GitHub
+   * button appears automatically in the contact section. Leave empty to hide.
+   */
+  github: "",
+
+  /**
+   * To replace the CV: drop a new PDF into /public/cv/ and update this path.
+   * Note: the current PDF includes a phone number — swap in a version without
+   * it if you prefer not to share that publicly.
+   */
+  cvUrl: "/cv/Akash_Ballenahalli_Ramegowda_Curriculum_Vitae.pdf",
+
+  languages: ["English", "German"],
+} as const;
+
+/** Headline numbers — each one is stated in the CV. */
+export const impactStats = [
+  {
+    value: "9+",
+    unit: "years",
+    label: "at BMW across enterprise data, reporting & AI enablement",
+  },
+  {
+    value: "~5,500",
+    unit: "reports / day",
+    label: "SAP BusinessObjects report instances I supported in operation",
+  },
+  {
+    value: "2,000+",
+    unit: "users",
+    label: "on an Oracle APEX application rolled out to 17 technologies across international plants",
+  },
+  {
+    value: "Days → hours",
+    unit: "",
+    label: "testing effort after automating data validation with Python",
+  },
+  {
+    value: "18",
+    unit: "systems",
+    label: "capturing systems covered by the validation I executed",
+  },
+  {
+    value: "20%",
+    unit: "faster",
+    label: "report-development turnaround after streamlining the process",
+  },
+] as const;
