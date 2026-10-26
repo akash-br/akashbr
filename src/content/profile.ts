@@ -11,7 +11,7 @@ export const profile = {
   role: "Digitalisation Specialist",
   employer: "BMW AG",
   location: "Munich, Germany",
-  photo: "/img/akash.webp",
+  photo: `${import.meta.env.BASE_URL}img/akash.webp`,
 
   email: "Akash91oct@gmail.com",
   linkedin: "https://www.linkedin.com/in/akash-br/",
@@ -28,7 +28,7 @@ export const profile = {
    * Note: the current PDF includes a phone number — swap in a version without
    * it if you prefer not to share that publicly.
    */
-  cvUrl: "/cv/Akash_Ballenahalli_Ramegowda_Curriculum_Vitae.pdf",
+  cvUrl: `${import.meta.env.BASE_URL}cv/Akash_Ballenahalli_Ramegowda_Curriculum_Vitae.pdf`,
 
   languages: ["English", "German"],
 } as const;
