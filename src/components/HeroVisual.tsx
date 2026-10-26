@@ -89,7 +89,7 @@ export function HeroVisual() {
         <circle cx={CX} cy={CY} r="52" fill="none" stroke="#9fb8aa" strokeDasharray="3 7" strokeWidth="1.5" className="spin-slow" />
         <circle cx={CX} cy={CY} r="36" fill="url(#hv-core)" />
         <text x={CX} y={CY + 8} textAnchor="middle" fontSize="24" fontStyle="italic" fill="#f4efe6" fontFamily="Fraunces">
-          ab
+          Ak
         </text>
       </svg>
 
