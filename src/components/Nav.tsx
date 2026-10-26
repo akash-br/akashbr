@@ -62,7 +62,7 @@ export function Nav() {
       <nav aria-label="Main" className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
         <a href="#top" className="group flex items-center gap-2.5" onClick={() => setOpen(false)}>
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-forest font-display text-[0.95rem] text-paper italic transition-transform duration-300 group-hover:-rotate-6">
-            ab
+            Ak
           </span>
           <span className="font-display text-lg leading-none">
             {profile.shortName}
