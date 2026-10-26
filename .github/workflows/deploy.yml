@@ -1,3 +1,0 @@
-git add .github/workflows/deploy.yml vite.config.ts src/content/profile.ts
-git commit -m "Configure GitHub Pages deployment"
-git push origin main
