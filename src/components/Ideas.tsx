@@ -32,6 +32,7 @@ export function Ideas() {
                 <span className="flex-1">
                   <span className="flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[0.7rem] text-ink-soft">
                     <span className="rounded-full bg-paper-2 px-2.5 py-1 text-ink">{idea.topic}</span>
+                     <span>{statusLabel[idea.status]}</span>
                     <span>{idea.readMins} min read</span>
                   </span>
                   <span className="mt-4 block font-display text-2xl leading-tight text-balance sm:text-[1.7rem]">{idea.title}</span>
