@@ -22,10 +22,10 @@ export function Story() {
               <img
                 src={profile.photo}
                 alt={`Portrait of ${profile.name}`}
-                width={72}
-                height={72}
+                width={240}
+                height={240}
                 loading="lazy"
-                className="h-[72px] w-[72px] rounded-2xl object-cover object-top"
+                className="h-28 w-28 shrink-0 rounded-2xl object-cover object-[50%_18%] sm:h-32 sm:w-32"
               />
               <figcaption>
                 <p className="font-display text-xl leading-tight">{profile.name}</p>
