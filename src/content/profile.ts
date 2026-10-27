@@ -33,8 +33,18 @@ export const profile = {
   languages: ["English", "German"],
 } as const;
 
-/** Headline numbers — each one is stated in the CV. */
+/** Headline numbers. The first two come from my own account of the AI use case; the rest are stated in the CV. */
 export const impactStats = [
+  {
+    value: "3 months → 15 min",
+    unit: "",
+    label: "development time for an AI use case in Indirect Purchasing (previously 3 months at minimum)",
+  },
+  {
+    value: "~€100,000",
+    unit: "saved",
+    label: "estimated savings from that AI use case, now rolling out across the area",
+  },
   {
     value: "9+",
     unit: "years",
