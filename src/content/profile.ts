@@ -71,7 +71,7 @@ export const impactStats = [
     label: "capturing systems covered by the validation I executed",
   },
   {
-    value: "20%",
+    value: "70%",
     unit: "faster",
     label: "report-development turnaround after streamlining the process",
   },
