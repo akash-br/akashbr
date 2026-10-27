@@ -17,11 +17,11 @@ export function Hero() {
             <img
               src={profile.photo}
               alt={`Portrait of ${profile.name}`}
-              width={44}
-              height={44}
-              className="h-11 w-11 rounded-full object-cover object-top ring-2 ring-card"
+              width={160}
+              height={160}
+              className="h-20 w-20 rounded-full object-cover object-[50%_18%] ring-4 ring-card sm:h-24 sm:w-24"
             />
-            <p className="text-sm leading-snug">
+            <p className="text-base leading-snug">
               <span className="font-semibold">{profile.name}</span>
               <br />
               <span className="text-ink-soft">
