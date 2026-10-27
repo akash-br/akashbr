@@ -40,7 +40,7 @@ export function Impact() {
               {impactStats.map((s, i) => (
                 <li
                   key={s.label}
-                  className="reveal group bg-forest p-6 transition-colors duration-300 hover:bg-forest-2"
+                  className={`reveal group bg-forest p-6 transition-colors duration-300 hover:bg-forest-2 ${i < 2 ? "col-span-full sm:px-8 sm:py-7" : ""}`}
                   style={{ ["--d" as string]: `${i * 70}ms` }}
                 >
                   <p className="font-display text-[2.1rem] leading-none font-medium text-paper">
