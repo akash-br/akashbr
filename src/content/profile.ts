@@ -53,7 +53,7 @@ export const impactStats = [
   {
     value: "~5,500",
     unit: "reports / day",
-    label: "SAP BusinessObjects report instances I supported in operation",
+    label: "developed SAP BusinessObjects report and supported in operation",
   },
   {
     value: "2,000+",
