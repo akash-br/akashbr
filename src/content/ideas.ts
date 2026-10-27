@@ -20,7 +20,7 @@ export const ideas: Idea[] = [
     dek: "What separates a dashboard people act on from one they admire and close.",
     topic: "Analytics",
     readMins: 3,
-    status: "draft",
+    status: "published",
     body: [
       "Most dashboards don’t fail because they’re ugly. They fail because nobody agreed what decision they were meant to support.",
       "A useful dashboard answers a specific question for a specific person, at the moment they need to decide something. If you can’t name that person and that decision, you’re not designing a dashboard — you’re designing a screensaver.",
@@ -35,7 +35,7 @@ export const ideas: Idea[] = [
     dek: "Notes on Golden Questions, acceptance criteria, and why evaluation is a business job.",
     topic: "AI",
     readMins: 4,
-    status: "draft",
+    status: "published",
     body: [
       "Every AI demo is impressive. That’s what demos are for. The real question is what happens on the hundredth question, asked by someone who wasn’t in the demo.",
       "That’s why I think evaluation belongs to the business, not just to the engineers. Engineers can measure whether a model behaves consistently. Only the people doing the work can say whether an answer is actually right for their process.",
@@ -50,7 +50,7 @@ export const ideas: Idea[] = [
     dek: "Why requirements, demos and feedback loops matter as much as the platform.",
     topic: "Transformation",
     readMins: 3,
-    status: "draft",
+    status: "published",
     body: [
       "It’s tempting to measure transformation by what was deployed. The more honest metric is what changed in how people work.",
       "Technology teams and business teams usually want the same outcome. They just describe it in different languages — one in features and data models, the other in pain points and deadlines. A surprising amount of transformation work is translation.",
@@ -64,23 +64,12 @@ export const ideas: Idea[] = [
     dek: "Data quality isn’t a back-office concern when every sourcing call depends on it.",
     topic: "Procurement",
     readMins: 3,
-    status: "draft",
+    status: "published",
     body: [
       "Procurement runs on information: who the supplier is, what we spend with them, how that spend is classified, and how all of it connects across systems.",
       "When that data is inconsistent, every downstream thing inherits the problem — the supplier profile, the analytics, and now the AI assistant answering questions about both.",
       "Two things help more than another report. One: codify the business logic and master-data relationships once, in a model everyone uses, instead of rebuilding them in every analysis. Two: automate data validation, so checking quality across many source systems is something that runs routinely rather than something someone heroically does by hand.",
       "Better data doesn’t make decisions for buyers. It makes their decisions faster to reach and easier to defend.",
-    ],
-  },
-  {
-    slug: "requirements-developers-read",
-    title: "How to write requirements developers actually read",
-    dek: "An idea in progress: examples over essays, criteria over adjectives.",
-    topic: "Delivery",
-    readMins: 1,
-    status: "idea",
-    body: [
-      "This one is still an outline. The short version: replace adjectives (“fast”, “intuitive”, “accurate”) with examples and testable criteria, and you’ll have fewer meetings about what the requirement meant.",
     ],
   },
 ];
