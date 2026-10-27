@@ -4,6 +4,8 @@ import { Impact } from "./components/Impact";
 import { Story } from "./components/Story";
 import { Capabilities } from "./components/Capabilities";
 import { Projects } from "./components/Projects";
+import { Toolkit } from "./components/Toolkit";
+import { Ideas } from "./components/Ideas";
 import { Section } from "./components/Section";
 import { Button } from "./components/Button";
 import { useReveal } from "./components/useReveal";
@@ -20,9 +22,11 @@ export default function App() {
         <Story />
         <Capabilities />
         <Projects />
+        <Toolkit />
+        <Ideas />
         <Section
           id="contact"
-          index="04"
+          index="06"
           eyebrow="Contact"
           tone="dark"
           title="Got a problem where business, data and AI need to meet? Let’s talk."
