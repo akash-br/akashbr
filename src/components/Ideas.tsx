@@ -3,8 +3,6 @@ import { ideas } from "../content/ideas";
 import { Icon } from "./Icon";
 import { Section } from "./Section";
 
-const statusLabel = { draft: "Draft", idea: "Idea", published: "Published" } as const;
-
 export function Ideas() {
   const [open, setOpen] = useState<string | null>(null);
 
@@ -14,7 +12,7 @@ export function Ideas() {
       index="05"
       eyebrow="Ideas"
       title="Notes on AI, data and getting people to use both."
-      intro="Short opinion pieces from my field. Most are still drafts; open one to read where it is today."
+      intro="Short opinion pieces from my field. Open one to read where it is today."
     >
       <ul className="grid gap-4">
         {ideas.map((idea) => {
@@ -31,8 +29,7 @@ export function Ideas() {
               >
                 <span className="flex-1">
                   <span className="flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[0.7rem] text-ink-soft">
-                    <span className="rounded-full bg-paper-2 px-2.5 py-1 text-ink">{idea.topic}</span>
-                     <span>{statusLabel[idea.status]}</span>
+                    <span className="rounded-full bg-paper-2 px-2.5 py-1 text-ink">{idea.topic}</span>                     
                     <span>{idea.readMins} min read</span>
                   </span>
                   <span className="mt-4 block font-display text-2xl leading-tight text-balance sm:text-[1.7rem]">{idea.title}</span>
