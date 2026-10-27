@@ -36,18 +36,18 @@ export function Impact() {
               </a>
             </div>
 
-            <ul className="grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-paper/15 min-[440px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
+           <ul className="grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-paper/15 min-[440px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
               {impactStats.map((s, i) => (
                 <li
                   key={s.label}
                   className={`reveal group bg-forest p-6 transition-colors duration-300 hover:bg-forest-2 ${i < 2 ? "col-span-full sm:px-8 sm:py-7" : ""}`}
                   style={{ ["--d" as string]: `${i * 70}ms` }}
                 >
-                  <p className="font-display text-[2.1rem] leading-none font-medium text-paper">
+                  <p className={`font-display leading-none font-medium text-paper ${i < 2 ? "text-4xl sm:text-5xl" : "text-[2.1rem]"}`}>
                     {s.value}
-                    {s.unit && <span className="ml-1.5 font-sans text-sm font-medium text-butter">{s.unit}</span>}
+                    {s.unit && <span className="ml-1.5 inline-block font-sans text-sm font-medium text-butter">{s.unit}</span>}
                   </p>
-                  <p className="mt-3 text-sm leading-snug text-paper/70">{s.label}</p>
+                  <p className={`mt-3 text-sm leading-snug text-paper/70 ${i < 2 ? "max-w-xl sm:text-base" : ""}`}>{s.label}</p>
                 </li>
               ))}
             </ul>
