@@ -134,7 +134,7 @@ export const projects: Project[] = [
     category: "Reporting & BI",
     context: "BMW AG · Dingolfing",
     period: "2017 – 2024",
-    headline: { value: "20%", label: "faster report turnaround" },
+    headline: { value: "70%", label: "faster report turnaround" },
     problem:
       "High-volume enterprise reporting has to be fast, secure and correct — for pre-series and series processes alike.",
     role: "I developed and maintained the BO universes, automated reporting, and coordinated offshore teams.",
@@ -148,7 +148,7 @@ export const projects: Project[] = [
     tools: ["SAP BusinessObjects / IDT", "Oracle", "SQL"],
     stakeholders: ["Offshore development teams", "Business end users"],
     outcome:
-      "Report-development turnaround reduced by 20%, with dependable reporting at enterprise scale.",
+      "Report-development turnaround reduced by 70%, with dependable reporting at enterprise scale.",
   },
   {
     id: "apex-rollout",
