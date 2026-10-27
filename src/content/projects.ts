@@ -23,6 +23,28 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "ai-use-case-rollout",
+    title: "From a three-month build to fifteen minutes",
+    kicker: "AI use case, rolled out across the area",
+    category: "AI & enablement",
+    context: "BMW AG · Indirect Purchasing",
+    period: "2024 – today",
+    headline: { value: "~€100k", label: "estimated savings, with rollout across the area under way" },
+    problem:
+      "Developing this kind of solution used to take at least three months. That was too slow and too costly to repeat across every team that could benefit.",
+    role: "I worked between procurement stakeholders and the AI development team to shape the use case, check the results against business needs and drive adoption.",
+    contributions: [
+      "Reduced development time from a minimum of 3 months to 15 minutes",
+      "Saved around €100,000 through the AI-based approach",
+      "Rolling the use case out across the whole area",
+      "Backed adoption with demonstrations, feedback sessions and continuous business engagement",
+    ],
+    tools: ["AI Use Case Design", "LLM Evaluation", "Acceptance Criteria", "Stakeholder Management"],
+    stakeholders: ["AI developers", "Data scientists", "Product teams", "Procurement stakeholders"],
+    outcome:
+      "A use case that went from a three-month effort to a 15-minute one, saved about €100,000, and is now spreading across the area.",
+  },
+  {
     id: "golden-questions",
     title: "Teaching an LLM to speak Purchasing",
     kicker: "Business-driven LLM evaluation",
