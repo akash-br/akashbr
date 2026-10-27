@@ -41,7 +41,7 @@ export const chapters: Chapter[] = [
     org: "BMW AG",
     title: "Seven years of making enterprise reporting dependable.",
     body: [
-      "I built and maintained SAP BusinessObjects universes, automated report generation for pre-series and series processes, and supported around 5,500 report instances a day.",
+      "I built and maintained SAP BusinessObjects universes, automated report generation for pre-series and series processes, developed and supported around 5,500 report instances a day.",
       "I rolled out an Oracle APEX application to 2,000+ users across international plants, coordinated offshore development teams, and contributed to proofs of concept on Palantir Foundry and Amazon QuickSight.",
       "When thousands of people rely on your reports, you get very serious about where the numbers come from.",
     ],
